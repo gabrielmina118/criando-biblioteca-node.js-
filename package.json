@@ -1,0 +1,25 @@
+{
+  "name": "validaurlgabrielmina",
+  "version": "1.0.0",
+  "description": "Esta é uma biblioteca que valida url que estão online ou não",
+  "main": "./cli.js",
+  "bin": {
+    "validaUrl": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node ./src/cli.js"
+  },
+  "keywords": ["Markdown","URL"],
+  "author": "Gabriel Mina da Silva",
+  "license": "ISC",
+  
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
